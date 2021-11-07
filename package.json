@@ -1,0 +1,38 @@
+{
+  "name": "nckulib",
+  "version": "1.0.3",
+  "description": "A crawler-style query module of the National Cheng Kung University Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andythebreaker/nckulib.git"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "andythebreaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andythebreaker/nckulib/issues"
+  },
+  "homepage": "https://github.com/andythebreaker/nckulib#readme",
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.1.3",
+    "node-fetch": "3.0.0",
+    "node-html-parser": "5.1.0"
+  },
+  "engines": {
+    "node": ">4.0"
+  },
+  "contributors": [
+    {
+      "name": "andythebreaker",
+      "email": "e24074724@mail.ncku.edu.tw",
+      "url": "https://github.com/andythebreaker"
+    }
+  ]
+}

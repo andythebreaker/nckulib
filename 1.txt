@@ -1,0 +1,697 @@
+
+> nckulib@1.0.2 test D:\andy\code\nckulib
+> mocha test.js
+
+
+
+  Testing printMsg function, should return "Hello World!" 
+    ✔ Should Return Hello World!
+
+
+  1 passing (15ms)
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<head>
+<title>National Cheng Kung University                   / 全部地點</title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+<script type="text/javascript" src="/scripts/webbridge.js">
+</script>
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">&#36339;&#33267;&#20839;&#23481;</a></div>
+<div class="topLogo">
+<img src="/screens/images/p3c1-01-01.jpg" alt="Navigation" width="1000" height="100" border="0" usemap="#Map" />
+
+<!--div class="topLinks">
+<ul id="topLinksList">
+<li><a href="http://www.lib.ncku.edu.tw/" tabindex="105">&#22238;&#22294;&#26360;&#39208;&#39318;&#38913;</a></li>
+<li><a href="/help*cht" tabindex="115">&#25805;&#20316;&#35498;&#26126;</a></li>
+<li><a href="/">English</a></li>
+<li><a href="/patroninfo*cht" tabindex="120">&#25105;&#30340;&#24115;&#25142;</a></li>
+<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.gif" alt=""><span class="buttonTopLinksText">&#25171;&#21360;</span></span></a></li>
+</ul>
+</div>
+
+<div class="topLogoSmall">
+<a href="/*cht" tabindex="10"><img src="/screens/home_title.jpg" border="0" alt="&#25104;&#21151;&#22823;&#23416;&#22294;&#26360;&#39208;&#39208;&#34255;&#26597;&#35426;"></a>
+</div>
+<!--img src="/screens/brand_flash.jpg" alt="NCKU Library Flash Brand" width="100%" /-->
+</div>
+
+<!--topLogo-->
+
+
+<div class="topMyLibrary">
+<div id="topMyLibraryHeader"><h1>&#25105;&#30340;&#22294;&#26360;&#39208;</h1></div>
+
+<ul id="toplogoMoreNav">
+<!-- Toplogo alt links. -->
+<!--<li><a href="/acquire*cht">&#25512;&#34214;&#25505;&#36092;</a></li>
+<li><a href="/suggest*cht">&#30041;&#35413;&#35542;</a></li>
+-->
+
+<!-- Dropdown menus -->
+	<!--li id="first">
+		<div><a href="/patroninfo*cht">&#25105;&#30340;&#22294;&#26360;&#39208;</a></div>
+		<ul>
+	    <li><a href="/patroninfo*cht">&#25105;&#30340;&#24115;&#25142;</a></li>
+	    <li><a href="/selfreg*cht">&#38283;&#19968;&#20491;&#24115;&#25142;</a></li>
+	    <li><a href="/libinfo*cht">&#38364;&#26044;&#22294;&#26360;&#39208;</a></li>
+	    <li><a href="/acquire*cht">&#25512;&#34214;&#25505;&#36092;</a></li>
+	    <li><a href="/suggest*cht">&#35413;&#35542;</a></li>
+		</ul>
+	</li>
+
+	<li>
+		<div><a href="/help*cht">&#24171;&#21161;&#20027;&#38988;</a></div>
+		<ul>
+			<li><a href="/help*cht#searching">&#25628;&#32034;&#20013;</a></li>
+			<li><a href="/help*cht#searchtips">&#36914;&#38542;&#38364;&#37749;&#23383;&#25628;&#32034;&#23567;&#37670;&#22218;</a></li>
+			<li><a href="/help*cht#prefsearch">&#20786;&#23384;&#24744;&#30340;&#25628;&#32034;&#20013;</a></li>
+			<li><a href="/help*cht#renewals">&#32396;&#20511;</a></li>
+			<li><a href="/help*cht#feepay">&#36027;&#29992;&#20184;&#27454;</a></li>
+			<li><a href="/help*cht#rpro">Research Pro</a></li>
+			<li><a href="/help*cht#programs">&#22294;&#26360;&#39208;&#27963;&#21205;&#33287;&#31038;&#21312;&#31680;&#30446;</a></li>
+		</ul>
+	</li>
+
+	<li id="last">
+		<div><a href="#">&#29305;&#40670;</a></div>
+		<ul>
+            <li><a href="<encore IP/iii/encore>">&#25628;&#32034; Encore</a></li>
+            <li><a href="/iii/calendar/month">&#31680;&#30446;&#26085;&#26310;</a></li>
+            <li><a href="/ftlist*cht">&#26032;&#26360;&#36890;&#21578;</a></li>
+            <li><a href="/rpro*cht">Research Pro</a></li>
+            <li><a href="/search*cht/y">&#26597;&#35426;&#38651;&#23376;&#36039;&#28304;</a></li>
+            <li><a href="/illb*cht">Interlibrary Loan</a></li>
+		</ul>
+	</li> -->
+<!-- End dropdown menus -->
+
+</ul>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+//Enable optional dropdown menu for additional navigation options.
+if (document.all&&document.getElementById) {
+	navRoot = document.getElementById("toplogoMoreNav");
+	for (i=0; i<navRoot.childNodes.length; i++) {
+		node = navRoot.childNodes[i];
+		if (node.nodeName=="LI") {
+			node.onmouseover=function() {
+				this.className+=" over";
+			}
+			node.onmouseout=function() {
+				this.className=this.className.replace(" over", "");
+			}
+		}
+	}
+}
+
+//--><!]]></script>
+
+</div><!--myLibrary-->
+<div class="topNavClear"></div>
+
+<div class="searchNav">
+<script language="JavaScript">
+<!--
+function GotoURL() {
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+}
+// -->
+</script>
+
+<!--div id="searchNavMenu">
+<select name="specializedSearch" id="specializedSearch">
+<option selected="selected" value=" ">&#12304;&#26356;&#22810;&#25628;&#32034;&#12305;</option>
+<option value="/search*cht/X">&#36914;&#38542;&#38364;&#37749;&#35422;</option>
+<option value="/search*cht/t">&#26360;&#21002;&#21517;</option>
+<option value="/search*cht/s">&#38620;&#35468;&#21002;&#21517;</option>
+<option value="/search*cht/a">&#20316;&#32773;</option>
+<option value="/search*cht/d">&#20027;&#38988;</option>
+<option value="/search*cht/y">&#36039;&#28304;&#21517;&#31281;</option>
+<option value="/search*cht/c">&#20013;&#25991;&#32034;&#26360;&#34399;</option>
+<option value="/search*cht/h">&#35199;&#25991;&#32034;&#26360;&#34399;</option>
+<option value="/search*cht/j">&#26085;&#25991;&#32034;&#26360;&#34399;</option>
+<option value="/search*cht/e">&#26399;&#21002;&#26550;&#20301;&#34399;</option>
+<option value="/search*cht/i">&#22283;&#38555;&#27161;&#28310;&#26360;&#34399; ISBN</option>
+<option value="/search*cht/g">&#25919;&#24220;&#25991;&#20214;#</option>
+<option value="/search*cht/q">&#20316;&#32773;&#33287;&#26360;&#21002;&#21517;</option>
+<option value="/search/p">&#35611;&#24107;</option>
+<option value="/search*cht/r">&#35506;&#31243;</option>
+</select>
+<input type="image" src="/screens/ico_go.gif" class="searchNavBut" value="Go" onclick="GotoURL();" >
+</div-->
+
+</div><!--searchNav-->
+<div class="clear"></div>
+<div class="pageContent"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+<map name="Map" id="Map">
+	<area shape="rect" coords="575,4,670,31" href="/patroninfo*cht" alt="&#25105;&#30340;&#24115;&#25142;" tabindex="120" />
+	<area shape="rect" coords="700,4,767,30" href="/*eng" alt="English" />
+  <area shape="rect" coords="789,4,870,30" href="/help*cht" alt="&#25805;&#20316;&#35498;&#26126;" tabindex="115"  />
+  <area shape="rect" coords="889,4,988,31" href="http://www.lib.ncku.edu.tw/" target="_blank" alt="&#22238;&#22294;&#26360;&#39208;&#39318;&#38913;" />
+  <area shape="rect" coords="6,16,300,94" href="/*cht" tabindex="10" alt="&#25104;&#21151;&#22823;&#23416;&#22294;&#26360;&#39208;&#39208;&#34255;&#26597;&#35426;"  />
+</map>
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<div id="TimeoutPopup" tabindex="0" class="modal" onkeypress="refreshSession(event)">
+<div class="modal-content">
+您的會話將在％s秒後自動終止。<br>
+<br>
+<button id="CancelTimeout" onclick="refreshSession()">Continue session</button>
+<button id="DoTimeout" onclick="endSession()">End session now</button></div>
+</div>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<!--this is customized <screens/bib_display_cht.html>-->
+
+<div id="bibDisplayBody">
+<div class="navigationRowRecord">
+<a href="/search~S1*cht"><span class="button"><img src="/screens/ico_startover.gif" alt=""><span class="buttonText">&#37325;&#26032;&#26597;&#35426;</span></span></a>
+<a href="/search~S1*cht?/i0001-5903/i00015903/1,1,1,B/?save_func=save_to_mylist&save=b1283014&returnurl=/search~S1*cht?/i0001-5903/i00015903/1%2C1%2C1%2CB/frameset&FF=i00015903&1%2C1%2C"><span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">&#20786;&#23384;&#33267;&#25105;&#30340;&#26360;&#21934;</span></span></a>
+<a href="/search~S1*cht?/i0001-5903/i00015903/1,1,1,B/frameset&FF=i00015903&1,1,?save=b1283014"><span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">&#20786;&#23384;&#32000;&#37636;</span></span></a>
+<a href="/search~S1*cht?/i0001-5903/i00015903/1%2C1%2C1%2CB/marc&FF=i00015903&1%2C1%2C"><span class="button"><img src="/screens/ico_marc.gif" alt=""><span class="buttonText">MARC &#39023;&#31034;</span></span></a>
+</div>
+<div id="bibDisplayContent">
+<div class="bibSearch">
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+var savedScope;
+var savedTag;
+var savedSearch;
+var sortButtonText = null;
+var savedExactSearch = null;
+var sortButtonEvent = null;
+var sortExactBrowseURL = null;
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "t";
+sortLabels[0] = "書名";
+sortTypes[1] = "a";
+sortLabels[1] = "作者";
+sortTypes[2] = "c";
+sortLabels[2] = "年代遠至近";
+sortTypes[3] = "r";
+sortLabels[3] = "年代近至遠";
+sortTypes[4] = "n";
+sortLabels[4] = "索書號";
+sortTypes[5] = "m";
+sortLabels[5] = "資料類型";
+sortLabels[6] = "系統已排序";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S1*cht/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="X"> 關鍵字</option>
+        <option value="t"> 書刊名</option>
+        <option value="a"> 作者</option>
+        <option value="d"> 主題</option>
+        <option value="q"> 出版社</option>
+        <option value="c"> 中文資料索書號</option>
+        <option value="h"> 西文資料索書號</option>
+        <option value="j"> 日韓文資料索書號</option>
+        <option value="i" selected="selected"> ISBN/ISSN</option>
+        <option value="g"> 政府出版品號碼/技術報告號碼</option>
+        <option value="l"> 登錄號</option>
+        <option value="p"> 教師名稱</option>
+        <option value="r"> 課程名稱</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="0001-5903" />
+      &nbsp;
+      <label for="searchscope" style="display:none;">Search Scope</label><select name="searchscope" id="searchscope">
+        <option value="1" selected="selected"> 全部館藏</option>
+        <option value="6"> 總圖書館</option>
+        <option value="5"> 醫分館</option>
+        <option value="2"> 電子書</option>
+        <option value="3"> 視聽資料</option>
+        <option value="4"> 期刊</option>
+        <option value="8"> 電子期刊</option>
+        <option value="7"> 本校學位論文</option>
+      </select>
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="查詢" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">只顯示目前在館內的館藏</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="i0001-5903" />
+</div>
+</form>
+<div class="bibSearchHistory">
+</div>
+</div><!-- bibSearch -->
+
+<div class="bibPager">
+
+
+<a href="/search~S1*cht?/i0001-5903/i00015903/1%2C1%2C1%2CB/frameset&FF=i00015857&0%2C0%2C"><span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">&#19978;&#19968;&#31558;&#32000;&#37636;</span></span></a>
+<a href="/search~S1*cht?/i0001-5903/i00015903/1%2C1%2C1%2CB/frameset&FF=i00015962&1%2C1%2C"><span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#31558;&#32000;&#37636;</span><img src="/screens/ico_next.gif" alt=""></span></a>
+</div>
+
+<div class="bibClear"></div>
+
+<div class="bibResourceSidebar">
+
+<!-- BEGIN RESOURCE TABLE -->
+<table width="100%"  class="bibResourceTable" cellpadding="0" cellspacing="0" border="0">
+<tr class="bibResourceTableHeader">
+<td class="bibResourceTableHeader"><img src="/screens/images/rescorce.gif" /></td></tr>
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><span><div style="text-align:center">
+<a href="" onClick="return createResourceWindow('/webbridge~S1*cht/panel?returnurl=%2Fsearch~S1*cht%3F%2Fi0001-5903%2Fi00015903%2F1%252C1%252C1%252CB%2Fframeset%26FF%3Di00015903%261%252C1%252C&rec=b1283014');">
+<a></a></a>
+</div></span>
+</td></tr>
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="x116_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=http%3A%2F%2Fndds.stpi.narl.org.tw%2F&linkid=77908563&noframe=1');return false;"><img src="/webbridge/image/images/ndds.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="nbi_net123_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=http%3A%2F%2F192.83.186.170%2Fsearch*cht%2Ft%3FSEARCH%3DActa%2Binformatica.&linkid=77908564&noframe=1');return false;"><img src="/webbridge/image/images/nbinet.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="yct115_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=http%3A%2F%2Fyctruc.lib.ncku.edu.tw%2Fcgi-bin%2Fsmartweaver%2Fswlink.cgi%3Fqs0%3DActa%2Binformatica.%26qf0%3Dtitle%26passwd%3Duc%26userid%3Duc%26o%3Dder%26i%3Dwswjs.htm&linkid=77908565&noframe=1');return false;"><img src="/webbridge/image/images/yct.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="rapidill117_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=http%3A%2F%2Frapidill.lib.ncku.edu.tw%2F&linkid=77908566&noframe=1');return false;"><img src="/webbridge/image/images/rapid.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="x124_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=https%3A%2F%2Flibapp.lib.ncku.edu.tw%2Fguestbook%2F&linkid=77908567&noframe=1');return false;"><img src="/webbridge/image/images/contact.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+
+<tr class="bibResourceTableEntry"><td class="bibResourceTableEntry"><div class="wblinkdisplay">
+<form name="greenuniversity125_form">
+<a href="" onClick="javascript:loadInNewWindow('/webbridge~S1*cht/showresource?resurl=http%3A%2F%2Feserver.lib.ncku.edu.tw%2FGreenUniversity%2F&linkid=77908568&noframe=1');return false;"><img src="/webbridge/image/images/greenuniversity.jpg" border="0"></img></a>
+</form>
+</div></td></tr>
+
+</table>
+<!-- END RESOURCE TABLE -->
+
+<!--Optional INNReach resources.-->
+<script type="text/javascript" src="/screens/qrdlou.js">
+</script>
+<script>try {addLoadEvent(qrdetail);}catch (err){}</script>
+<div id="qrdetail" class="qrcode"></div>
+</div>
+
+
+<div class="bibDisplayJacket">
+<a href="https://books.google.com/books?vid=ISBN00015903" target="_parent"><img src="https://media.taaze.tw/showLargeImageByIsbn.ashx?width=120&isbn=00015903" border="0" alt="&#26360;&#26412;&#23553;&#38754;"></a><div class="bibMedia">
+ <img src="/screens/media_periodical2.gif" alt="紙本期刊"></div>
+</div>
+
+<div class="bibDisplayContentMain">
+
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=t -->
+<td valign="top" width="20%"  class="bibInfoLabel">書刊名</td>
+<td class="bibInfoData">
+<strong>Acta informatica.</strong></td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+<h1 class="bibDisplayTitle">
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+</h1>
+
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=p -->
+<td valign="top" width="20%"  class="bibInfoLabel">出版項</td>
+<td class="bibInfoData">
+Berlin &#59; New York : Springer-Verlag</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+
+<div class="testlinkeddocs">
+</div>
+<div class="bibDisplayUrls">
+</div>
+
+<!-- BEGIN BIBHOLDINGSRECORDS -->
+<table width="100%" cellspacing="0" cellpadding="0" class="bibHoldings">
+<tr><td colspan="2"><hr  class="holdingsDivider" /></td></tr>
+<tr >
+<td  class="bibHoldingsLabel">
+&#36039;&#26009;&#35672;&#21029;
+</td>
+<td  class="bibHoldingsEntry">
+紙本 Print journal&nbsp;
+</td>
+</tr>
+<tr><td  class="bibHoldingsLabel"><em>架位號</em></td><td  class="bibHoldingsEntry">A0520</td></tr>
+<tr >
+<td  class="bibHoldingsLabel">
+<em>館藏地</em></td><td  class="bibHoldingsEntry">總圖西文期刊合訂本區(B2)
+
+</td>
+</tr>
+<tr >
+<td valign="top"  class="bibHoldingsLabel"><em>&#39208;&#34255;</em></td><td valign="top"  class="bibHoldingsEntry">6-14,1976-80. 17-20,1982-83.<br />
+</td>
+</tr>
+<tr><td colspan="2"><hr  class="holdingsDivider" /></td></tr>
+<tr >
+<td  class="bibHoldingsLabel">
+&#36039;&#26009;&#35672;&#21029;
+</td>
+<td  class="bibHoldingsEntry">
+紙本 Print journal&nbsp;
+</td>
+</tr>
+<tr >
+<td  class="bibHoldingsLabel">
+<em>館藏地</em></td><td  class="bibHoldingsEntry">數學系所
+
+</td>
+</tr>
+<tr >
+<td valign="top"  class="bibHoldingsLabel"><em>&#39208;&#34255;</em></td><td valign="top"  class="bibHoldingsEntry">1-32,1971-95.<br />
+
+</td>
+</tr>
+<tr><td colspan="2"><hr  class="holdingsDivider" /></td></tr>
+</table>
+
+<div class="bibDisplayItems">
+<!--div class="bibDisplayItemsHeader"><h2>&#35079;&#26412;</h2></div-->
+<div class="bibDisplayItemsMain">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bibItems">
+<tr  class="bibItemsHeader">
+<th width="27%"  class="bibItemsHeader">
+館藏地
+</th>
+<th width="18%"  class="bibItemsHeader">
+登錄號
+</th>
+<th width="34%"  class="bibItemsHeader">
+索書號
+</th>
+<th width="21%"  class="bibItemsHeader">
+館藏狀況(西元年-月-日)
+</th>
+</tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340483 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.6,no.1-4 1976 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340484 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.7,no.1-4 1976 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340485 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.8,no.1-4 1977 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340486 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.9,no.1-4 1977-78 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340487 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.10,no.1-4 1978 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340488 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.11,no.1-4 1978-79 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340489 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.12,no.1-4 1979 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340490 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.13,no.1-4 1980 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;340491 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.14,no.1-4 1980 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;總圖西文期刊合訂本區(B2) 
+</td>
+<td width="18%" ><!-- field b -->&nbsp;360676 </td>
+<td width="34%" ><!-- field C --><!-- field v -->&nbsp;v.17,no.1-4 1982 <!-- field # -->&nbsp;</td>
+<td width="21%" ><!-- field % -->&nbsp;不可外借 </td></tr>
+</table>
+<div style="text-align:center"><form method="post" action="/search~S1*cht?/i0001-5903/i00015903/1,1,1,B/holdings&FF=i00015903&1,1,">
+<input type="submit" value="查看其他館藏或查詢一特定館藏" />
+<input type="text" name="volume" size="6" />
+</form></div><p>
+</div>
+</div>
+
+ <!--{orders}-->
+
+<div class="bibDisplayContentMore">
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=r -->
+<td valign="top" width="20%"  class="bibInfoLabel">稽核項</td>
+<td class="bibInfoData">
+v. : ill. &#59; 25 cm.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">附註</td>
+<td class="bibInfoData">
+Description based on: Vol. 4, fasc. 3, published in 1975.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">收錄於</td>
+<td class="bibInfoData">
+Electrical & electronics abstracts 0036-8105 1971-</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Computer & control abstracts 0036-8113 1971-</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Engineering index monthly 0013-7960</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Engineering index annual (1968) 0360-8557</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Mathematical reviews 0025-5629</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Chemical abstracts 0009-2258</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Engineering index energy abstracts 0093-8408</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Physics abstracts. Science abstracts. Series A 0036-8091 1971-</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Engineering index bioengineering abstracts 0736-6213</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Engineering index monthly (1984) 0742-1974</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">語言</td>
+<td class="bibInfoData">
+English, French, or German.</td></tr>
+<tr><!-- next row for fieldtag=d -->
+<td valign="top" width="20%"  class="bibInfoLabel">主題</td>
+<td class="bibInfoData">
+<a href="/search~S1*cht?/dMachine+theory./dmachine+theory/-3,-1,0,B/browse">Machine theory.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=d -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S1*cht?/dInformation+storage+and+retrieval+systems./dinformation+storage+and+retrieval+systems/-3,-1,0,B/browse">Information storage and retrieval systems.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=d -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S1*cht?/dElectronic+data+processing./delectronic+data+processing/-3,-1,0,B/browse">Electronic data processing.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=u -->
+<td valign="top" width="20%"  class="bibInfoLabel">簡略題名</td>
+<td class="bibInfoData">
+<a href="/search~S1*cht?/tActa+inf./tacta+inf/-3,-1,0,B/browse">Acta inf.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=u -->
+<td valign="top" width="20%"  class="bibInfoLabel">識別題名</td>
+<td class="bibInfoData">
+Acta informatica</td></tr>
+<tr><!-- next row for fieldtag=i -->
+<td valign="top" width="20%"  class="bibInfoLabel">國際標準叢刊號</td>
+<td class="bibInfoData">
+0001-5903</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+</div>
+
+ <!--{IFELCONTENT:365}-->
+ <!-- Replace the number for your enhanced content in Pathfinder Pro -->
+ <div class="bibDisplayContentMore">
+ <ul id="elContent">
+ <!--{ELCONTENT:365}-->
+ </ul>
+ </div>
+ <!--{xif}-->
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<div class="bibDisplayPermLink actionButtonArea">
+<a href="/record=b1283014~S1*cht"><span class="button"><img src="/screens/ico_bookmark.gif" alt=""><span class="buttonText">&#27704;&#20037;&#37832;&#25509;</span></span></a></div>
+</div>
+</div>
+
+</div><!-- close bibDisplayContent -->
+<div class="clear"></div>
+</div><!-- close bibDisplayBody -->
+<br />
+
+﻿<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Sep 2011 -->
+</div><!-- pageContent  -->
+
+<!--add your stuff here --> 
+<div class="Footer">國立成功大學圖書館 版權所有 &copy; 2011 NCKU Library All Rights Reserved.<br />
+TEL: (06) 275-7575 ext. 65760｜地址： 台南市大學路一號【<a href="http://www.lib.ncku.edu.tw/guide/location.php" target="_blank">地圖</a>】｜Email：<a href="mailto:em65760@email.ncku.edu.tw">em65760@email.ncku.edu.tw</a><br />
+</div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+
+
+
+<!-- end botlogo.html file -->
+
+
+</body>
+</html>
+
+
