@@ -5,8 +5,8 @@ const myapp = require(".");
 
 describe('test1', () => {
     it('Should Return ...!', () => {
-        myapp.test_lib_qry((ok) => {
-            expect(ok).to.equal("American mathematical monthly : the official journal of the Mathematical Association of America.");
+        myapp.test_lib_qry("0002-5232",(ok) => {
+            expect(ok).to.equal("Algebra and Logic");
         });
     });
 });
