@@ -33,7 +33,7 @@ exports.isbn_to_json = async function (isbn, callback) {
                 ele = BHR[k];
 
                 var data_mark = trimOffNewlines(ele.getElementsByTagName("td")[0].innerText);
-                
+
                 if (data_mark === "資料識別" || ncrd.decode(data_mark) === "資料識別") {
                     book_info_tepl.data_rec = trimOffNewlines(ele.getElementsByTagName("td")[1].innerText);
                 }
@@ -62,7 +62,7 @@ exports.isbn_to_json = async function (isbn, callback) {
             bibDetail.forEach(element => {
                 if (element.text.includes(chinese_book_name)) {
                     var book_name_ans = element.querySelector(".bibInfoData").text;
-                    obj_book_info.book_name = book_name_ans;
+                    obj_book_info.book_name = trimOffNewlines(book_name_ans);
                 }
             });
             console.log(obj_book_info);
