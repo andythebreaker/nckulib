@@ -32,7 +32,6 @@ exports.isbn_to_json = async function (isbn, callback) {
             for (var k = 0; k < BHR.length; k++) {
 
                 ele = BHR[k];
-                console.log('@' + trimOffNewlines(ele.getElementsByTagName("td")[0].innerText) + "@");
 
                 var data_mark = trimOffNewlines(ele.getElementsByTagName("td")[0].innerText);
                 if (data_mark === "資料識別" || ncrd.decode(data_mark) === "資料識別") {
@@ -48,7 +47,6 @@ exports.isbn_to_json = async function (isbn, callback) {
                     book_info_tepl.stor_s = ele.getElementsByTagName("td")[1].innerText;
                 }
                 if (ele.innerHTML.includes("holdingsDivider")) {
-                    console.log("------------------------------------------------------holdingsDivider------------------------------------------------------------");
                     if (first_dont_count_holdingsDivider !== 0) {
                         obj_book_info.book_info_s.push(book_info_tepl);
                         book_info_tepl = {
