@@ -35,16 +35,16 @@ exports.isbn_to_json = async function (isbn, callback) {
                 var data_mark = trimOffNewlines(ele.getElementsByTagName("td")[0].innerText);
                 
                 if (data_mark === "資料識別" || ncrd.decode(data_mark) === "資料識別") {
-                    book_info_tepl.data_rec = ele.getElementsByTagName("td")[1].innerText;
+                    book_info_tepl.data_rec = trimOffNewlines(ele.getElementsByTagName("td")[1].innerText);
                 }
                 if (data_mark === "架位號" || ncrd.decode(data_mark) === "架位號") {
-                    book_info_tepl.place_hold = ele.getElementsByTagName("td")[1].innerText;
+                    book_info_tepl.place_hold = trimOffNewlines(ele.getElementsByTagName("td")[1].innerText);
                 }
                 if (data_mark === "館藏地" || ncrd.decode(data_mark) === "館藏地") {
-                    book_info_tepl.stor_loc = ele.getElementsByTagName("td")[1].innerText;
+                    book_info_tepl.stor_loc = trimOffNewlines(ele.getElementsByTagName("td")[1].innerText);
                 }
                 if (data_mark === "館藏" || ncrd.decode(data_mark) === "館藏") {
-                    book_info_tepl.stor_s = ele.getElementsByTagName("td")[1].innerText;
+                    book_info_tepl.stor_s = trimOffNewlines(ele.getElementsByTagName("td")[1].innerText);
                 }
                 if (ele.innerHTML.includes("holdingsDivider")) {
                     if (first_dont_count_holdingsDivider !== 0) {
